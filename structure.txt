@@ -1,0 +1,121 @@
+.
+|____README.md
+|____FMRI_pipeline
+| |____acqparams.txt
+| |____melodic_pipeline.sh
+| |____swell.py
+| |____crop_img2rigidReg.py
+| |____topup_functional.sh
+| |____crop_atlas.sh
+| |____config.json
+| |____crop_anat.sh
+| |____extract_topup.sh
+|____.git
+| |____HEAD
+| |____description
+| |____index
+| |____objects
+| | |____info
+| | |____pack
+| | | |____pack-1091c544bf142da25c910b489ce6c7dba9c31483.pack
+| | | |____pack-1091c544bf142da25c910b489ce6c7dba9c31483.idx
+| | | |____pack-1091c544bf142da25c910b489ce6c7dba9c31483.rev
+| |____hooks
+| | |____pre-merge-commit.sample
+| | |____pre-commit.sample
+| | |____fsmonitor-watchman.sample
+| | |____commit-msg.sample
+| | |____pre-rebase.sample
+| | |____pre-receive.sample
+| | |____prepare-commit-msg.sample
+| | |____update.sample
+| | |____pre-push.sample
+| | |____sendemail-validate.sample
+| | |____pre-applypatch.sample
+| | |____push-to-checkout.sample
+| | |____post-update.sample
+| | |____applypatch-msg.sample
+| |____logs
+| | |____HEAD
+| | |____refs
+| | | |____heads
+| | | | |____main
+| | | |____remotes
+| | | | |____origin
+| | | | | |____HEAD
+| |____packed-refs
+| |____config
+| |____info
+| | |____exclude
+| |____refs
+| | |____tags
+| | |____heads
+| | | |____main
+| | |____remotes
+| | | |____origin
+| | | | |____HEAD
+| |____branches
+|____T2_pipeline
+| |____deo_T2map.sh
+| |____config.json
+| |____ROI_all_split.xlsx
+| |____T2map_to_commonspace.sh
+| |____commands.txt
+| |____extract_metrics.py
+| |____reorient_anat.sh
+|____Diffusion_pipeline
+| |____merge_df.py
+| |____pipeline.sh
+| |____RSS_atlas.sh
+| |____config.json
+| |____extract_metrics.py
+| |____reorient_anat.sh
+|____structure.txt
+|____ROI_analysis
+| |____figures
+| | |____boxplot_autism.png
+| | |____connectogram.png
+| |____connectogram_diff.py
+| |____README.md
+| |____aggregate_utils.py
+| |____aggregate_FC.py
+| |____concat_runs.sh
+| |____boxplot_Compare.py
+| |____subject_list.txt
+| |____aggregate_FC_fromBIDS.py
+| |____FC_connectogram.py
+| |____makeFileList.sh
+| |______pycache__
+| | |____aggregate_FC_fromBIDS.cpython-312.pyc
+| | |____aggregate_utils.cpython-312.pyc
+| |____count_ROI_intersection.py
+|____.gitignore
+|____bruker_pipeline
+| |____clean_scans.py
+| |____acqparams.txt
+| |____melodic_pipeline.sh
+| |____swell.py
+| |____backup_sum_anat.sh
+| |____crop_img2rigidReg.py
+| |____README.md
+| |____RSS_bold.sh
+| |____topup_functional.sh
+| |____downscale_labels.sh
+| |____concat_bold.py
+| |____pipeline.sh
+| |____.Rhistory
+| |____crop_anat_atlas_RSS.sh
+| |____concat_runs.sh
+| |____Scans.xlsx
+| |____raw_process.sh
+| |____crop_atlas.sh
+| |____config.json
+| |____RSS_common_bold.sh
+| |____downscale_mask.sh
+| |____nii2deo.sh
+| |____crop_anat.sh
+| |____concat_bold.sh
+| |____crop_anat_RSS.sh
+| |____makeFileList.sh
+| |____crop_atlas_RSS.sh
+| |____extract_topup.sh
